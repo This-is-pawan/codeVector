@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://code-vector-flame.vercel.app",
     credentials: true,
   }),
 );
