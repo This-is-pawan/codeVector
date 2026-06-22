@@ -113,7 +113,7 @@ setPage(1);
         </div>
       )}
 {/* pagination */}
-
+      {data.length>0:
 <div className="flex justify-center items-center gap-4 mt-8">
   <button
     disabled={page === 1}
@@ -134,8 +134,8 @@ setPage(1);
   >
     Next
   </button>
-</div>
-
+</div>:""
+      }
 
       {/* Empty State */}
       {!loading && data.length === 0 && (
