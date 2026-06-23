@@ -204,7 +204,7 @@ http://localhost:4000
 
 # Features
 
-* Browse 200,000+ products
+* Browse 50,000+ products
 * Fast cursor-based pagination
 * Category filtering
 * MongoDB indexing
