@@ -267,7 +267,7 @@ GET /codevector/products?page=1&limit=50&category=fashion
 
 ```bash
 cd backend
-npm run dev
+npm run dev or nodemon server.js
 ```
 
 ### Start Frontend
