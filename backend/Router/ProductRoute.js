@@ -58,8 +58,8 @@ Routes.get("/products", async (req, res) => {
 
     const products = await Products.find(query)
       .sort({ _id: 1 })
-      .limit(Number(limit))
       .skip(skip)
+      .limit(Number(limit))
 
     res.json({
       success: true,
