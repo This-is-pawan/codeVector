@@ -10,8 +10,6 @@ const Routes = express.Router();
 Routes.post("/products", async (req, res) => {
   try {
    
-
-
 // create 50000 product in one time
     const products = Array.from({ length: 50000 }, (_,i) => {
       const randomCategory =
